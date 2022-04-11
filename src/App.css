@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-wrapper {
+    position: relative;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box-2 img {
+    border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-1 p {
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.box-1 button {
+    margin-top: 20px;
+    position: relative;
+    height: 3.3125rem;
+    width: 16.5rem;
+    font-size: 1.1146rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #F34F51;
+    color: white;
+    border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-1 span {
+    color: #F34F51;
+}
+main{
+    background-image: url('./Main/img/background.jpg');
+}
+.main {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 9%;
+}
+
+.box-1,
+.box-2 {
+    float: left;
+    position: relative;
+    width: 40%;
+}
+
+.box-2 {
+    margin-left: 2%;
+}
+
+.second-h1 {
+    margin-bottom: 40px;
+    line-height: 3.3125rem;
+    font-size: 2.3529rem;
+    letter-spacing: -.5px;
+    color: #212121;
+    margin-top: 4%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.meetup-tools {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.meetup-tools div {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 18%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.meetup-tools img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 90px;
+}
+
+.meetup-tools p {
+    color: #37465A;
+    font-size: 0.8669rem;
+    line-height: 1.4rem;
+}
+
+.meetup-tools a {
+    color: #F34F51;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.meetup-tools a :hover {
+    color: #F34F51;
+    text-decoration: underline;
+}
+
+.main-2 {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    font-family: Arial;
+    font-weight: 400;
+    background: rgb(228, 225, 225);
+}
+
+.main-2 h1 {
+    position: relative;
+    margin-top: 8%;
+    text-align: center;
+    line-height: 2.8125rem;
+    font-size: 1.9814rem;
+}
+
+.text {
+    text-align: center;
+    margin-top: 0.2%;
+    font-size: 17px;
+}
+
+.brings {
+    display: inline-block;
+    margin-top: 4%;
+    position: relative;
+    width: 95%;
+    left: 15%;
+}
+
+.brings img {
+    position: relative;
+    width: 300px;
+}
+
+.brings div {
+    margin-left: 2%;
+    float: left;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    text-align: left;
+    background-color: white;
+}
+
+.brings h2 {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    top: 2%;
+    font-size: 24px;
+}
+
+.brings p {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    top: 2%;
+    color: #212121;
+    line-height: 1.375rem;
+    font-size: 0.8459rem;
+}
+
+.main-2 button {
+    margin-top: 20px;
+    position: relative;
+    height: 3.3125rem;
+    width: 16.5rem;
+    font-size: 1.1146rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #F34F51;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    margin-left: 43%;
+}
+
+.main-2 iframe {
+    position: relative;
+    width: 80%;
+    height: 800px;
+    margin: 10%;
+    margin-top: 10%;
+}
+
+.connect {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    display: inline-block;
+}
+
+.connect h1 {
+    text-align: left;
+    line-height: 2.375rem;
+    font-size: 1.9814rem;
+}
+
+.connect div {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.connect button {
+    margin-top: 20px;
+    position: relative;
+    height: 3.3125rem;
+    width: 16.5rem;
+    font-size: 1.1146rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #F34F51;
+    color: white;
+    border: none;
+}
+
+.connect img {
+    position: relative;
+    width: 70%;
+    margin-left: 40%;
+}
+
+.connect-1 {
+    position: relative;
+    margin-top: 5%;
+}
+
+footer {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer p {
+    color: white;
+    margin-top: 7%;
+    margin-left: 2%;
+    text-align: left;
+    line-height: 1.5625rem;
+    font-size: 1.3011rem;
+}
+
+.links {
+    position: relative;
+    display: inline;
+}
+
+.links a {
+    float: left;
+    color: #F34F51;
+    font-size: 10px;
+    text-decoration: none;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+    margin-left: 2%;
+}
+
+.links a :hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.registration {
+    position: relative;
+    float: left;
+    margin-left: 7%;
+}
+
+.registration a {
+    position: relative;
+    display: block;
+    margin-bottom: 5%;
+    text-align: left;
+    line-height: 1.625rem;
+    font-size: 0.9907rem;
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.line {
+    position: relative;
+    width: 1px;
+    margin-left: 2%;
+    float: left;
+    height: 100px;
+    background-color: white;
+}
+
+.social {
+    position: relative;
+    float: left;
+    margin-left: 4%;
+}
+
+.social h1 {
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.8125rem;
+    font-size: 1.1146rem;
+}
+
+.socials img {
+    color: white;
+    width: 25%;
 }
